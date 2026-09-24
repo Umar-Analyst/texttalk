@@ -27,7 +27,7 @@ Follow these steps to set up and run the project locally:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Abdullah-dev0/TextTalk.git
+git clone https://github.com/Umar-Analyst/texttalk.git
 cd texttalk
 ```
 

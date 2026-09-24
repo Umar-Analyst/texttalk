@@ -25,7 +25,7 @@ const Footer = () => {
               </Link>
             ))}
             <a
-              href="https://github.com/Abdullah-dev0"
+              href="https://github.com/Umar-Analyst"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-foreground transition-colors"

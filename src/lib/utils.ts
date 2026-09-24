@@ -52,7 +52,6 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: '@Abdu_lah14',
     },
     icons: {
       icon: icons,
@@ -63,8 +62,8 @@ export function constructMetadata({
     keywords: ['PDF chat', 'document analysis', 'AI chat', 'text analysis'],
     authors: [
       {
-        name: 'Abdullah',
-        url: 'https://Abdullahtech.me',
+        name: 'Umar Sheraz',
+        url: 'https://github.com/Umar-Analyst',
       },
     ],
     ...(noIndex && {
