@@ -25,14 +25,17 @@ export function constructMetadata({
   icons?: string;
   noIndex?: boolean;
 } = {}): Metadata {
+  const siteUrl = new URL('https://texttalk.abdullahtech.me');
+
   return {
+    metadataBase: siteUrl,
     title,
     description,
     openGraph: {
       title,
       description,
       type: 'website',
-      url: 'https://texttalk.abdullahtech.me',
+      url: siteUrl,
       images: [
         {
           url: image,
@@ -49,6 +52,7 @@ export function constructMetadata({
       title,
       description,
       images: [image],
+      creator: '@Abdu_lah14',
     },
     icons: {
       icon: icons,
@@ -59,8 +63,8 @@ export function constructMetadata({
     keywords: ['PDF chat', 'document analysis', 'AI chat', 'text analysis'],
     authors: [
       {
-        name: 'Umar-Analyst',
-        url: 'https://github.com/Umar-Analyst',
+        name: 'Abdullah',
+        url: 'https://Abdullahtech.me',
       },
     ],
     ...(noIndex && {
